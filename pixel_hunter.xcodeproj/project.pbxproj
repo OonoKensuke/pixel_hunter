@@ -280,6 +280,18 @@
 		0C7786A71781B08D00183401 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7786A61781B08D00183401 /* libwebsockets.a */; };
 		0C7786AD1781B08D00183401 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7786AC1781B08D00183401 /* AppDelegate.cpp */; };
 		0C7786B01781B08D00183401 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C7786AF1781B08D00183401 /* HelloWorldScene.cpp */; };
+		0C7786BB1781B6BB00183401 /* dj.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786BA1781B6BA00183401 /* dj.png */; };
+		0C7786C71781BF4C00183401 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786BC1781BF4800183401 /* 1.png */; };
+		0C7786C81781BF4C00183401 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786BD1781BF4800183401 /* 2.png */; };
+		0C7786C91781BF4C00183401 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786BE1781BF4900183401 /* 3.png */; };
+		0C7786CA1781BF4C00183401 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786BF1781BF4900183401 /* 4.png */; };
+		0C7786CB1781BF4C00183401 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C01781BF4A00183401 /* 5.png */; };
+		0C7786CC1781BF4C00183401 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C11781BF4A00183401 /* 6.png */; };
+		0C7786CD1781BF4C00183401 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C21781BF4B00183401 /* 7.png */; };
+		0C7786CE1781BF4C00183401 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C31781BF4B00183401 /* 8.png */; };
+		0C7786CF1781BF4C00183401 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C41781BF4B00183401 /* 9.png */; };
+		0C7786D01781BF4C00183401 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C51781BF4C00183401 /* 10.png */; };
+		0C7786D11781BF4C00183401 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C61781BF4C00183401 /* 11.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +885,18 @@
 		0C7786AC1781B08D00183401 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		0C7786AE1781B08D00183401 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		0C7786AF1781B08D00183401 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		0C7786BA1781B6BA00183401 /* dj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dj.png; sourceTree = "<group>"; };
+		0C7786BC1781BF4800183401 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0C7786BD1781BF4800183401 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0C7786BE1781BF4900183401 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		0C7786BF1781BF4900183401 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		0C7786C01781BF4A00183401 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		0C7786C11781BF4A00183401 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		0C7786C21781BF4B00183401 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		0C7786C31781BF4B00183401 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		0C7786C41781BF4B00183401 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		0C7786C51781BF4C00183401 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		0C7786C61781BF4C00183401 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +968,7 @@
 		0C77831A1781B08100183401 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C7786BA1781B6BA00183401 /* dj.png */,
 				0C77831B1781B08100183401 /* CloseNormal.png */,
 				0C77831D1781B08100183401 /* CloseSelected.png */,
 				0C77831F1781B08100183401 /* Default.png */,
@@ -956,6 +981,17 @@
 				0C77832D1781B08100183401 /* Icon@2x.png */,
 				0C77832F1781B08100183401 /* iTunesArtwork */,
 				0C7783311781B08100183401 /* Info.plist */,
+				0C7786BC1781BF4800183401 /* 1.png */,
+				0C7786BD1781BF4800183401 /* 2.png */,
+				0C7786BE1781BF4900183401 /* 3.png */,
+				0C7786BF1781BF4900183401 /* 4.png */,
+				0C7786C01781BF4A00183401 /* 5.png */,
+				0C7786C11781BF4A00183401 /* 6.png */,
+				0C7786C21781BF4B00183401 /* 7.png */,
+				0C7786C31781BF4B00183401 /* 8.png */,
+				0C7786C41781BF4B00183401 /* 9.png */,
+				0C7786C51781BF4C00183401 /* 10.png */,
+				0C7786C61781BF4C00183401 /* 11.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2164,6 +2200,18 @@
 				0C7783301781B08100183401 /* iTunesArtwork in Resources */,
 				0C7783CF1781B08300183401 /* ChangeLog in Resources */,
 				0C7785431781B08900183401 /* project.pbxproj in Resources */,
+				0C7786BB1781B6BB00183401 /* dj.png in Resources */,
+				0C7786C71781BF4C00183401 /* 1.png in Resources */,
+				0C7786C81781BF4C00183401 /* 2.png in Resources */,
+				0C7786C91781BF4C00183401 /* 3.png in Resources */,
+				0C7786CA1781BF4C00183401 /* 4.png in Resources */,
+				0C7786CB1781BF4C00183401 /* 5.png in Resources */,
+				0C7786CC1781BF4C00183401 /* 6.png in Resources */,
+				0C7786CD1781BF4C00183401 /* 7.png in Resources */,
+				0C7786CE1781BF4C00183401 /* 8.png in Resources */,
+				0C7786CF1781BF4C00183401 /* 9.png in Resources */,
+				0C7786D01781BF4C00183401 /* 10.png in Resources */,
+				0C7786D11781BF4C00183401 /* 11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
