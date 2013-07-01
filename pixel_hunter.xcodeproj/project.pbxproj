@@ -292,6 +292,7 @@
 		0C7786CF1781BF4C00183401 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C41781BF4B00183401 /* 9.png */; };
 		0C7786D01781BF4C00183401 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C51781BF4C00183401 /* 10.png */; };
 		0C7786D11781BF4C00183401 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C61781BF4C00183401 /* 11.png */; };
+		0CA744F81781E27300BF5018 /* ModalLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CA744F71781E27300BF5018 /* ModalLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -897,6 +898,8 @@
 		0C7786C41781BF4B00183401 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		0C7786C51781BF4C00183401 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 		0C7786C61781BF4C00183401 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		0CA744F61781E27300BF5018 /* ModalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalLayer.h; sourceTree = "<group>"; };
+		0CA744F71781E27300BF5018 /* ModalLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModalLayer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2133,6 +2136,8 @@
 				0C7786AC1781B08D00183401 /* AppDelegate.cpp */,
 				0C7786AE1781B08D00183401 /* HelloWorldScene.h */,
 				0C7786AF1781B08D00183401 /* HelloWorldScene.cpp */,
+				0CA744F61781E27300BF5018 /* ModalLayer.h */,
+				0CA744F71781E27300BF5018 /* ModalLayer.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2471,6 +2476,7 @@
 				0C77869F1781B08D00183401 /* cpVect.c in Sources */,
 				0C7786AD1781B08D00183401 /* AppDelegate.cpp in Sources */,
 				0C7786B01781B08D00183401 /* HelloWorldScene.cpp in Sources */,
+				0CA744F81781E27300BF5018 /* ModalLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2612,6 +2618,7 @@
 				0C7786B51781B08D00183401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
