@@ -7,8 +7,11 @@
 //class HelloWorld : public cocos2d::CCLayer
 //画面背景をグラデーションにする
 class HelloWorld : public cocos2d::CCLayerGradient
-
 {
+protected:
+    //EXP格納の変数
+    int EXP_Points;
+
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
     virtual bool init();
@@ -18,6 +21,15 @@ public:
     void gameLogic();
     void ccTouchesBegan();
     void ccTouchesBegan(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
+    void update(float dt);
+    void preLoadSound();
+    void playBGM();
+    void playSoundEffect();
+    void EXPDisplay();
+    void EXPlogic();
+    void collectModeButton();
+    void collectMode(CCObject* pSender);
+
 
     // there's no 'id' in cpp, so we recommend to return the class instance pointer
     static cocos2d::CCScene* scene();

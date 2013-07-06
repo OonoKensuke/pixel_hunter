@@ -293,6 +293,16 @@
 		0C7786D01781BF4C00183401 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C51781BF4C00183401 /* 10.png */; };
 		0C7786D11781BF4C00183401 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7786C61781BF4C00183401 /* 11.png */; };
 		0CA744F81781E27300BF5018 /* ModalLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CA744F71781E27300BF5018 /* ModalLayer.cpp */; };
+		0CA744FA1781E63A00BF5018 /* text in Resources */ = {isa = PBXBuildFile; fileRef = 0CA744F91781E63A00BF5018 /* text */; };
+		0CA744FF1781E98600BF5018 /* tg_close_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA744FC1781E98600BF5018 /* tg_close_1.png */; };
+		0CA745001781E98600BF5018 /* tg_close_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA744FD1781E98600BF5018 /* tg_close_2.png */; };
+		0CA745041781EC0400BF5018 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA745031781EC0400BF5018 /* frame.png */; };
+		0CA745061787C65200BF5018 /* BGM01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CA745051787C65200BF5018 /* BGM01.mp3 */; };
+		0CA745081787C67A00BF5018 /* config.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CA745071787C67A00BF5018 /* config.wav */; };
+		0CA7450A1787C68F00BF5018 /* damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CA745091787C68F00BF5018 /* damage.wav */; };
+		0CA7450D1787EBDF00BF5018 /* black_collect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA7450B1787EBDB00BF5018 /* black_collect.png */; };
+		0CA7450E1787EBDF00BF5018 /* collect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA7450C1787EBDD00BF5018 /* collect.png */; };
+		0CA745141787F30100BF5018 /* TapSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CA745131787F30100BF5018 /* TapSprite.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -900,6 +910,17 @@
 		0C7786C61781BF4C00183401 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		0CA744F61781E27300BF5018 /* ModalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalLayer.h; sourceTree = "<group>"; };
 		0CA744F71781E27300BF5018 /* ModalLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModalLayer.cpp; sourceTree = "<group>"; };
+		0CA744F91781E63A00BF5018 /* text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text; sourceTree = "<group>"; };
+		0CA744FC1781E98600BF5018 /* tg_close_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tg_close_1.png; sourceTree = "<group>"; };
+		0CA744FD1781E98600BF5018 /* tg_close_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tg_close_2.png; sourceTree = "<group>"; };
+		0CA745031781EC0400BF5018 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		0CA745051787C65200BF5018 /* BGM01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM01.mp3; sourceTree = "<group>"; };
+		0CA745071787C67A00BF5018 /* config.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = config.wav; sourceTree = "<group>"; };
+		0CA745091787C68F00BF5018 /* damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = damage.wav; sourceTree = "<group>"; };
+		0CA7450B1787EBDB00BF5018 /* black_collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_collect.png; sourceTree = "<group>"; };
+		0CA7450C1787EBDD00BF5018 /* collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collect.png; sourceTree = "<group>"; };
+		0CA745121787F30100BF5018 /* TapSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapSprite.h; sourceTree = "<group>"; };
+		0CA745131787F30100BF5018 /* TapSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TapSprite.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -971,6 +992,9 @@
 		0C77831A1781B08100183401 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0CA745091787C68F00BF5018 /* damage.wav */,
+				0CA745071787C67A00BF5018 /* config.wav */,
+				0CA745051787C65200BF5018 /* BGM01.mp3 */,
 				0C7786BA1781B6BA00183401 /* dj.png */,
 				0C77831B1781B08100183401 /* CloseNormal.png */,
 				0C77831D1781B08100183401 /* CloseSelected.png */,
@@ -984,6 +1008,9 @@
 				0C77832D1781B08100183401 /* Icon@2x.png */,
 				0C77832F1781B08100183401 /* iTunesArtwork */,
 				0C7783311781B08100183401 /* Info.plist */,
+				0CA745031781EC0400BF5018 /* frame.png */,
+				0CA744FC1781E98600BF5018 /* tg_close_1.png */,
+				0CA744FD1781E98600BF5018 /* tg_close_2.png */,
 				0C7786BC1781BF4800183401 /* 1.png */,
 				0C7786BD1781BF4800183401 /* 2.png */,
 				0C7786BE1781BF4900183401 /* 3.png */,
@@ -995,6 +1022,8 @@
 				0C7786C41781BF4B00183401 /* 9.png */,
 				0C7786C51781BF4C00183401 /* 10.png */,
 				0C7786C61781BF4C00183401 /* 11.png */,
+				0CA7450B1787EBDB00BF5018 /* black_collect.png */,
+				0CA7450C1787EBDD00BF5018 /* collect.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2138,6 +2167,9 @@
 				0C7786AF1781B08D00183401 /* HelloWorldScene.cpp */,
 				0CA744F61781E27300BF5018 /* ModalLayer.h */,
 				0CA744F71781E27300BF5018 /* ModalLayer.cpp */,
+				0CA745121787F30100BF5018 /* TapSprite.h */,
+				0CA745131787F30100BF5018 /* TapSprite.cpp */,
+				0CA744F91781E63A00BF5018 /* text */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2217,6 +2249,15 @@
 				0C7786CF1781BF4C00183401 /* 9.png in Resources */,
 				0C7786D01781BF4C00183401 /* 10.png in Resources */,
 				0C7786D11781BF4C00183401 /* 11.png in Resources */,
+				0CA744FA1781E63A00BF5018 /* text in Resources */,
+				0CA744FF1781E98600BF5018 /* tg_close_1.png in Resources */,
+				0CA745001781E98600BF5018 /* tg_close_2.png in Resources */,
+				0CA745041781EC0400BF5018 /* frame.png in Resources */,
+				0CA745061787C65200BF5018 /* BGM01.mp3 in Resources */,
+				0CA745081787C67A00BF5018 /* config.wav in Resources */,
+				0CA7450A1787C68F00BF5018 /* damage.wav in Resources */,
+				0CA7450D1787EBDF00BF5018 /* black_collect.png in Resources */,
+				0CA7450E1787EBDF00BF5018 /* collect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2477,6 +2518,7 @@
 				0C7786AD1781B08D00183401 /* AppDelegate.cpp in Sources */,
 				0C7786B01781B08D00183401 /* HelloWorldScene.cpp in Sources */,
 				0CA744F81781E27300BF5018 /* ModalLayer.cpp in Sources */,
+				0CA745141787F30100BF5018 /* TapSprite.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,3 @@
+    //モーダルレイヤのコード
+    ModalLayer* layer = ModalLayer::create();
+    this->addChild(layer);
